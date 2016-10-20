@@ -1,3 +1,7 @@
+*   `String#blank?` no longer raises `ArgumentError` by invalid encoding strings.
+
+    *Yuuki Inoue*
+
 *   Fix `ActiveSupport::TimeWithZone#in` across DST boundaries.
 
     Previously calls to `in` were being sent to the non-DST aware
